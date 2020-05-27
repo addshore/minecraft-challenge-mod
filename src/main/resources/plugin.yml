@@ -1,0 +1,11 @@
+name: Test1
+author: addshore
+version: 0.1
+main: com.addshore.Test1
+
+commands:
+  test1:
+    description: This is a test1 command.
+    usage: /test1
+    permission: test1.test1
+    permission-message: You don't have test1
