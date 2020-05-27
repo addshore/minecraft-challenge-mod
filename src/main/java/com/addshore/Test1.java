@@ -8,12 +8,13 @@ public class Test1 extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("Test1 has been invoked!");
+        getLogger().info("Test1 has been enabled!");
+        getServer().getPluginManager().registerEvents(new Test1Listener(), this);
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("Test1 has been invoked!");
+        getLogger().info("Test1 has been disabled!");
     }
 
     @Override
