@@ -1,4 +1,4 @@
-package com.addshore;
+package com.addshore.minecraft;
 
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -19,7 +19,7 @@ import static org.bukkit.Bukkit.getLogger;
  *  - Configurable upper height?
  *  - Configurable player area for swap
  */
-public class Test1Listener implements Listener {
+public class BlockSwapListener implements Listener {
 
     Map<String, Location> playerLastLocation = new HashMap<String, Location>();
 

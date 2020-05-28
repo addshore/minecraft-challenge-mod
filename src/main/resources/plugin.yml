@@ -1,7 +1,8 @@
 name: Test1
 author: addshore
 version: 0.1
-main: com.addshore.Test1
+api-version: 1.13
+main: com.addshore.minecraft.ChallengeMod
 
 commands:
   test1:

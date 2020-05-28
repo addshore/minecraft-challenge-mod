@@ -1,20 +1,20 @@
-package com.addshore;
+package com.addshore.minecraft;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Test1 extends JavaPlugin {
+public class ChallengeMod extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        getLogger().info("Test1 has been enabled!");
-        getServer().getPluginManager().registerEvents(new Test1Listener(), this);
+        getLogger().info("Addshore ChallengeMod has been enabled!");
+        getServer().getPluginManager().registerEvents(new BlockSwapListener(), this);
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("Test1 has been disabled!");
+        getLogger().info("Addshore ChallengeMod has been disabled!");
     }
 
     @Override
