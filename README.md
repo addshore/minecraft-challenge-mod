@@ -1,6 +1,8 @@
-ChallengeMod
-======================
+# ChallengeMod
 
+Written for a blog post https://addshore.com/2020/05/minecraft-java-mod-using-bukkit-spigot/
+
+Not worked on it since.
 
 To build new jar:
 `mvn install`
